@@ -1,5 +1,14 @@
 # @medusajs/file-s3
 
+## 2.12.2
+
+### Patch Changes
+
+- [#14209](https://github.com/medusajs/medusa/pull/14209) [`b7adfb225b4e81bd388c01afe254e2de140266b9`](https://github.com/medusajs/medusa/commit/b7adfb225b4e81bd388c01afe254e2de140266b9) Thanks [@peterlgh7](https://github.com/peterlgh7)! - URL-encode S3 object metadata and returned URL
+
+- Updated dependencies [[`9f7846ae0babbad39947a1f33d236bff8b5098d0`](https://github.com/medusajs/medusa/commit/9f7846ae0babbad39947a1f33d236bff8b5098d0)]:
+  - @medusajs/framework@2.12.2
+
 ## 2.12.1
 
 ### Patch Changes

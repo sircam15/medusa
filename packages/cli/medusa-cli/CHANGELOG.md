@@ -1,5 +1,16 @@
 # Change Log
 
+## 2.12.2
+
+### Patch Changes
+
+- [#14004](https://github.com/medusajs/medusa/pull/14004) [`5b7e3c0e7649a3a61b0a4fe796f37e5f7fbe9a3a`](https://github.com/medusajs/medusa/commit/5b7e3c0e7649a3a61b0a4fe796f37e5f7fbe9a3a) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - chore(link-modules): ignore duplicates link creation
+
+- Updated dependencies []:
+  - @medusajs/utils@2.12.2
+  - @medusajs/deps@2.12.2
+  - @medusajs/telemetry@2.12.2
+
 ## 2.12.1
 
 ### Patch Changes
