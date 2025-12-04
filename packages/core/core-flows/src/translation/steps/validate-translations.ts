@@ -35,8 +35,9 @@ export const validateTranslationsStep = createStep(
     const normalizedInput = Array.isArray(data) ? data : [data]
 
     const unsupportedLocales = normalizedInput
+      .filter((translation) => Boolean(translation.locale_code))
       .map((translation) => translation.locale_code)
-      .filter((locale) => !enabledLocales.includes(locale ?? ""))
+      .filter((locale) => !enabledLocales.includes(locale))
 
     if (unsupportedLocales.length) {
       throw new MedusaError(
