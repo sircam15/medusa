@@ -100,4 +100,11 @@
     "pg": "8.10.0",
     "glob": "^7.1.6"
   }
+  {
+  "scripts": {
+    // Other scripts...
+    "docker:up": "docker compose up --build -d",
+    "docker:down": "docker compose down"
+  }
+}
 }
